@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap');
+
+/* ESTILO RETIRADO DO CANAL MILENA EMMERT VÍDEO: https://www.youtube.com/@milenaemmert/videos*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*para não alterar a largura de um elemento se aplicar um padding*/
+}
+
+:root{
+    --cor-de-fundo: #FAB733;
+    --cor-azul-escuro: #030070;
+    --cor-ancora-voltar: #FF66C0;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-azul-escuro);
+    font-family: "baloo 2";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+    text-align: center;
+}
+
+.main_screen{
+width: 360px;
+margin: 0 auto;
+}
+
+.initial_title{
+    background-image: url(images/Background\ Amarelo.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+.initial_title h1{
+    font-size: 1em;
+}
+
+.initial_title p{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.center_image{
+    padding: 30px 0px;
+}
+
+.ancora_backward{
+    background-color: var(--cor-azul-escuro);
+    padding: 0px 16px;
+    border-radius: 19px;
+    text-decoration: none;
+    color: var(--cor-ancora-voltar);
+    display: flex;
+    width: 123px;
+    margin: 0 auto;
+    align-items: center;
+}
